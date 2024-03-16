@@ -1,0 +1,35 @@
+.contenido{
+    margin: 35px;
+    font-size: 18px;
+}
+.contenido h1{
+    margin: 15px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.intro{
+    display: flex;
+    padding: 15px;
+    font-size: 20px;
+}
+.intro img{
+    width: 400px;
+    height: auto;
+    float: left;
+}
+.intro p{
+    margin-right: 30px;
+}
+.desarrollo{
+    font-size: 20px;
+    display: flex;
+}
+.desarrollo img{
+    width: 400px;
+    height: auto;
+}
+.desarrollo p{
+    margin-left: 30px;
+}
+

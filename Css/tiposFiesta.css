@@ -1,0 +1,32 @@
+.contenido{
+    font-size: 20px;
+
+}
+.contenido h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contenido section img{
+    width: 300px;
+    height: auto;
+    margin: 10px;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+.contenido section img:hover{
+    transform: scale(1.2);
+}
+.tipoD h3{
+    text-align: left;
+    border: 3px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.fiesta{
+    display: flex;
+}
+.fiesta p{
+    background-color: #7DA0CA;
+    border-radius: 15px;
+    height: auto;
+}
