@@ -1,4 +1,27 @@
-
 .contenido p{
     font-size: 25px;
+}
+.menu{
+    list-style: none;
+}
+.elemento{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.tittle{
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+    width: 350px;
+    background-color: #7da0ca;
+    border-radius: 30px;
+}
+.descripcion{
+    background-color: #5483b3;
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.descripcion p{
+    font-size: 18px;
 }
