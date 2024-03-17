@@ -1,0 +1,73 @@
+.contenido{
+    display: grid;
+    place-items: center;
+}
+.contenido img{
+    width: 500px;
+    height: 500px;
+}
+.contenidoP{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.containerCarrusel{
+    margin-top: 20px;
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: antiquewhite;
+    box-shadow: 0 8px 32px 0 rgba(#000000);
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+.carruseles{
+    width: 700%;
+    height: 100%;
+    display: flex;
+
+}
+.sliderSection {
+    width: calc(100% /7);
+}
+/* Propiedades de las section */
+.sliderSection img{
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* Propiedades de los botones */
+.btnLeft,
+.btnRight{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #00000081;
+    transform: translate(0, -50%);
+    transition: .5 ease;
+    user-select: none;
+}
+/* Al pasar el cursor los botones cambiaran su backgrpund
+asi como su color de fuente */
+.btnLeft:hover,
+.btnRight:hover {
+    background-color: #333333d4;
+    color: #fff;
+}
+/* Alinear cada boton aus posicion */
+.btnLeft{
+    left: 10px;
+}
+.btnRight{
+    right: 10px;
+}
