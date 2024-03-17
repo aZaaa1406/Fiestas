@@ -10,7 +10,7 @@
 }
 .tittle{
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
     margin-bottom: 10px;
     width: 350px;
     background-color: #7da0ca;
@@ -21,7 +21,12 @@
     list-style: none;
     margin-left: 20px;
     margin-top: 10px;
+    display: flex;
 }
 .descripcion p{
-    font-size: 18px;
+    font-size: 25px;
+}
+.descripcion img{
+    height: 100px;
+    width: auto;
 }
