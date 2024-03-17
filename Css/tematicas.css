@@ -72,3 +72,16 @@ asi como su color de fuente */
 .btnRight{
     right: 10px;
 }
+.tipoD{
+    width: 100%;
+    margin: 50px;
+}
+.eventosEspeciales{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    float: left;
+}
+.eventosCasuales{
+    float: right;
+}
